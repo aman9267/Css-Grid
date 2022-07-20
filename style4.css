@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+/* here is main container */
+.main-div {
+  width: 900px;
+  height: auto;
+  margin: auto;
+}
+.sub-div {
+  margin-left: 20px;
+  width: 900px;
+  margin-top: 40px;
+  position: relative;
+}
+.child-div {
+  border-radius: 5px;
+  background-color: #021702;
+  height: auto;
+  margin-bottom: 30px;
+  height: 350px;
+}
+p {
+  margin-top: 20px;
+}
+.btn-1 {
+  margin-top: 20px;
+  padding: 8px 25px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border: none;
+  width: fit-content;
+  color: white;
+  background-color: lightblue;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: orange;
+}
+p {
+  margin-left: 10px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+.skill {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+a:link {
+  padding: 8px 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  background-color: lightblue;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+a:hover {
+  background-color: orange;
+  border: 1px solid red;
+}
+/* Flex box started from here */
+.flex-box {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50%;
+}
+.box-1 {
+  padding: 50px;
+  border-radius: 50%;
+  background-color: orange;
+  height: 275px;
+  width: 275px;
+}
+.box-2 {
+  border-radius: 50%;
+  background-color: blue;
+  padding: 50px;
+  height: 275px;
+  width: 275px;
+}
+.box-3 {
+  padding: 50px;
+  border-radius: 50%;
+  background-color: green;
+  height: 275px;
+  width: 275px;
+}
+.box-4 {
+  position: relative;
+  border-radius: 10px;
+  background-color: green;
+  width: 600px;
+  height: 275px;
+  text-align: center;
+}
+.box-4::after {
+  position: absolute;
+  left: -25px;
+  top: 112.5px;
+  content: "";
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+.box-4::before {
+  position: absolute;
+  right: -25px;
+  top: 112.5px;
+  content: "";
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+.box-5 {
+  border-radius: 10px;
+  background-color: orange;
+  width: 275px;
+  height: 275px;
+}
+.box-7 {
+  border-radius: 10px;
+  background-color: orange;
+  width: 600px;
+  height: 275px;
+  margin-bottom: 50px;
+}
+.box-6 {
+  border-radius: 10px;
+  background-color: green;
+  width: 275px;
+  height: 275px;
+  margin-bottom: 50px;
+}
+.coupen {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.offer-banner {
+  margin-top: 40px;
+}
